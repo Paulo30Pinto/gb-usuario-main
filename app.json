@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Usuário Global APP",
+    "slug": "global-aguas",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/GLOBAL-ÁGUAS-LOGO.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/GLOBAL-ÁGUAS-LOGO.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.blackmachine.globalaguas",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.blackmachine.globalaguas",
+      "versionCode": 13,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/GLOBAL-ÁGUAS-LOGO.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBcPlR5DtV_FS3OLcd-lAkvVN7i78HumNY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "html": {
+          "chunks": {
+            "vendor": 1,
+            "main": 1
+          }
+        }
+      }
+    },
+    "owner": "evanderjr10",
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
